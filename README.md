@@ -46,29 +46,54 @@ This command will return what your current working directory is
 * ``` top ```
 * ```kill```
 
+## ps
+This will list processes that are running
+Running ```ps -u $user``` will allow you to see what process belong to a certain user
+
+## top
+This will list the process tree for the entire OS
+
+## kill
+Does exactly as the name implies and kills a process
+
+```kill $(pidof $process_name)```
+Will kill all instances of 
+
+
 
 ## Getting system info
+* ```ifconfig```
+* ```lspci```
+* ```lscpu```
+* ```lsmod```
 * ```uname -r```
 * ``` w ```
 * ``` cat /etc/*releases```
 
-## Viewing files
+## Viewing, creating, and editing files
 * ```vim```
 * ```less```
 * ```cat```
 * ```tail```
+* ```rm```
+* ```mkdir```
+* ```touch```
 
 ## SSH
 * ```ssh user@hostname ```
 
 ## Useful tools
 * ```grep```
+* ```tmux```
 * ```awk```
 * ```sed```
 * ```ping```
+* ```netstat```
 
 
 ## Man pages
 If you don't know the arguments or how to use a command just read the man pages
 
+Example
 ```man ls```
+will display the arguments and some info on the ```ls``` command
