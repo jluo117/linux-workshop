@@ -46,14 +46,14 @@ This command will return what your current working directory is
 * ``` top ```
 * ```kill```
 
-## ps
+### ps
 This will list processes that are running
 Running ```ps -u $user``` will allow you to see what process belong to a certain user
 
-## top
+### top
 This will list the process tree for the entire OS
 
-## kill
+### kill
 Does exactly as the name implies and kills a process
 
 ```kill $(pidof $process_name)```
@@ -69,6 +69,20 @@ Will kill all instances of
 * ```uname -r```
 * ``` w ```
 * ``` cat /etc/*releases```
+### ifconfig
+Displays and allows control of network interfaces
+### lspci
+This will list pci devices
+### lscpu
+This will list cpu info
+### lsmod             
+This will list kernel modules
+### uname
+This will list a variety of system info ie kernel version
+###  w                                                  
+This will list who is logged in
+###  cat /etc/*releases
+Specific distribution will be displayed
 
 ## Viewing, creating, and editing files
 * ```vim```
