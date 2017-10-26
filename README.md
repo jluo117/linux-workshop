@@ -42,7 +42,7 @@ This command will allow  you to change your directory
 This command will return what your current working directory
 
 ## Processes
-* ``` ps -u ```
+* ``` ps ```
 * ``` top ```
 * ```kill```
 
