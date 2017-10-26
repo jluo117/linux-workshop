@@ -39,7 +39,7 @@ This command will allow you to list all files and directories in your current wo
 This command will allow  you to change your directory
 
 ### pwd
-This command will return what your current working directory
+This command will return what your current working directory is
 
 ## Processes
 * ``` ps ```
