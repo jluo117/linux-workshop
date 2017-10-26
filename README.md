@@ -121,7 +121,31 @@ Allows you to either create a new file or change an existing files timestamp
 * `sed`
 * `ping`
 * `netstat`
+* `scp`
 
+### grep
+Lets you search through files or strings piped into it
+`ls | grep -i myhw` will search the output of ls and try to find 'myhw'
+
+### tmux
+Allows you to split your terminal into multiple sessions from a single session
+
+### awk
+Lets you sort and print strings
+`awk '{print $1}' FILE` Will print the first coloumn from a file
+
+### sed
+Lets you edit strings
+`sed -i s/stringtoreplace/stringreplacewith/g`
+
+### ping
+Allows you to ping other devices
+
+### netstat
+Gives you info on network interfaces and very useful in seeing what ports are open
+
+### scp
+Lets you transfer files
 
 ## Man pages
 If you don't know the arguments or how to use a command just read the man pages
