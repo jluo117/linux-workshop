@@ -59,7 +59,7 @@ Does exactly as the name implies and kills a process
 * `lspci`
 * `lscpu`
 * `lsmod`
-* `uname -r`
+* `uname`
 * `w`
 * `cat /etc/*releases`
 
