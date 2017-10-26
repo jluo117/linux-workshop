@@ -87,8 +87,32 @@ Specific distribution will be displayed
 * `mkdir`
 * `touch`
 
+### vim
+Text editor
+
+### less
+Lets you read through text with vim controls
+
+### cat
+Allows you to concactenate and print files
+
+### tail
+Lets you see the newest lines appened to a file
+`tail -f` allows you to follow a file in real time
+
+### rm
+Removes files
+`rm -rf` will recursively force remove which while useful can also accidently destroy alot of work. Use with care
+
+### mkdir
+Lets you create directories
+
+### touch
+Allows you to either create a new file or change an existing files timestamp
+
 ## SSH
 * `ssh user@hostname`
+
 
 ## Useful tools
 * `grep`
